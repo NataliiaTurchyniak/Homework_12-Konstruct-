@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_12(Fonts and Position)</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:wght@400;700&family=Staatliches&family=Tourney:ital,wght@1,600&display=swap" rel="stylesheet">
+    
+
+
+
+</head>
+<body>
+        <header class="header">
+            <div class="container d-flex">
+                <nav class="nav">
+                    <ul class="menu nav__menu">
+                        <li class="menu__item">
+                            <a href="" class="menu__link menu__link--font">END</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">DOCUMENTATION</a>
+                        </li>
+                        <li class="menu__item">
+                            <span>/</span>
+
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">WHO'S USING</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="logo">
+                        <img src="./assets/img/company-logo-black.svg" alt="logo Company" class="logo-black">
+                </div>    
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main-flex">
+                <aside class="aside">
+                    <ul class="side-bar">
+                        <li class="side-bar-item">
+                        <a href="#Introduction" class="side-bar-link">INTRODUCTION</a>
+                        </li>
+                        <li class="side-bar-item">
+                            <a href="#components" class="side-bar-link">CORE COMPONENTS</a>
+                        </li>
+                        <li class="side-bar-item">
+                            <a href="#react" class="side-bar-link">REACT FUNDAMENTALS</a>
+                        </li>
+                        <li class="side-bar-item">
+                            <a href="#handling" class="side-bar-link">HANDLING TEXT INPUT</a>
+                        </li>
+                    </ul>
+                </aside>  
+                  
+            <div class="container">
+            <section class="content">
+                <div class="img-bg">
+                    <img class="bg" src="./assets/img/bg-picture.png" alt="bg-picture">
+                </div>
+                <article id="introdution" class="article">
+                    <h2 class="title">
+                        INTRODUCTION
+                        <span class="sub-title">Chapter 1</span>
+                    </h2>
+                    <p class="text">Welcome to the very start of your React Native joney! If you're looking for environment setup instructions, they've moved to 
+                        <span class="article__text_underlined">their own section.</span>   Continue reading for an introduction to the documents, Native Components, Reacts, and more!</p>
+                </article>
+                <article id="components" class="article">
+                    <h2 class="title">    
+                        CORE COMPONENTS
+                        <span class="sub-title">Chapter 2</span>
+                    </h2>
+                        <p class="text">React Native is an open sourse framework for building Android and iOS applicaions using React and the app platform's native capabiles. With React Native, you use JavaScript to access your platform's APIs as well as to describe the apprearence and behavior of your UI using React components: 
+                            <span class="article__text_italic">bundales of reusable, nestable code.</span>  You can learn more about React in the next section. But first, let's cover how components work in React Native.
+                        </p>
+                </article>
+                <article id="react-fundamentals" class="article">
+                    <h2 class="title">    
+                        REACT FUNDAMENTALS
+                        <span class="sub-title">Chapter 3</span>
+                    </h2>
+                    <p class="text">
+                        React Native runs on
+                        <span class="article__text_underlined">React</span>
+                        React Native runs on React, a popular open source library for building user interfaces with JavaScript. To make the most of React Native, it helps to understand React itself. This section can get you started or can serve as a refresher course.</p>
+                        <p class="text">
+                            We're going to cover the core concepts behind React:
+                        </p>
+                        <p class="text">
+                            <span class="article__text_bold">+components.</span>
+                             The rest of this introduction to React uses cats in its examples: friendly, approachable creatures that need names and a cafe to work in.
+                        </p>
+                        <p class="text">
+                            <span class="article__text_bold">+JSX.</span>
+                            React and React Native use JSX, a syntax that lets you write elements inside JavaScript like so:<br>
+                            Hello, I'm cat!
+                        </p>
+                        <p class="text">
+                            The React docs have
+                            <span class="article__text_underlined">a comprehensive guide to JSX</span>
+                            you can refer to learn even more. Because JXS is JavaScript, you can use variables inside it. Here you declaring a
+                            <span class="article__text-paste">name</span>    
+                            for the cat, name, and embedding it with curly braces inside &lt;Text&gt;
+                        </p>
+                        <p class="article__text">
+                            <span class="article__text_bold">+pops.</span>
+                             Pops is short for "properties".
+                        </p>
+                        <p class="text">
+                            <span  class="article__text_bold">+state.</span>
+                            " While you can think of props as arguments you use to configure how components render, state is like a component's personal data storage. State is useful for hanging data that changes over time or that comes from user interaction. State gives your components memory!"
+                        </p>
+                </article>
+                <article  id="hending" class="article">
+                    <h2 class="title">
+                        HANDING TEXT INPUT
+                        <span class="sub-title">Chapter 4</span>
+                    </h2>
+                    <p class="text">
+                        "Text input is a Core Component that allows the user to enter text. It has an
+                        <span class="article__text_italic">on Change Text</span>
+                         prop that takes a function to be called every time the text changed, and an onSubmitEditing prop that takes a function to be called when the text is submitted."
+                    </p>
+                    <p class="text">
+                        "For example, let's say that us the user types, you're translating their words into a different language, every single word is written the same way: So the sentence "Hello there Bob" would be translated as."
+                    </p>
+
+                </article>
+            </section>
+            </div>
+            </div>
+        </div>
+
+        </main>
+    </body>
+    </html>
+    
